@@ -1,0 +1,192 @@
+"10"+10+10
+typeof("10"+10)
+string
+typeof("sdkskdjs")
+string
+typeof(2+2)
+number
+"10"+10+10
+101010
+10+10+"10"
+2010
+
+
+
+"10"+10+10
+'101010'
+10+10+"10"
+'2010'
+typeOf(2)
+VM116:1 Uncaught ReferenceError: typeOf is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM116:1Understand this errorAI
+typeof(2)
+'number'
+typeof("jdfejif")
+'string'
+typeof(2+"sdsd")
+'string'
+
+
+
+true
+true
+type
+VM269:1 Uncaught ReferenceError: type is not defined
+    at <anonymous>:1:1
+(anonymous) @ VM269:1Understand this errorAI
+typeof(true)
+'boolean'
+typeof("true")
+'string'
+
+arr[]=["hi","hello",34,35,65,3456]
+VM451:1 Uncaught SyntaxError: Unexpected token ']'Understand this errorAI
+arr=["hi","hello",34,35,65,3456]
+(6) ['hi', 'hello', 34, 35, 65, 3456]
+arr[3]=37
+37
+arr.length
+6
+arr
+(6) ['hi', 'hello', 34, 37, 65, 3456]
+arr[7]="Arts"
+'Arts'
+arr
+(8) ['hi', 'hello', 34, 37, 65, 3456, empty, 'Arts']
+
+
+userobj={
+    name:"Anush",
+    age:20,
+    email:"anush@gmail.com"
+}
+{name: 'Anush', age: 20, email: 'anush@gmail.com'}
+age
+: 
+20
+email
+: 
+"anush@gmail.com"
+name
+: 
+"Anushkaran Venkatnagaiyan"
+[[Prototype]]
+: 
+Object
+userobj.name="Anushkaran Venkatnagaiyan"
+'Anushkaran Venkatnagaiyan'
+userobj
+{name: 'Anushkaran Venkatnagaiyan', age: 20, email: 'anush@gmail.com'}
+userobj.hobbies="Driving"
+'Driving'
+delete userobj.hobbies
+true
+userobj
+{name: 'Anushkaran Venkatnagaiyan', age: 20, email: 'anush@gmail.com'}
+age
+: 
+20
+email
+: 
+"anush@gmail.com"
+name
+: 
+"Anushkaran Venkatnagaiyan"
+[[Prototype]]
+: 
+Object
+
+
+
+
+"100"==100
+true
+"100"===100
+false
+
+
+
+
+
+
+
+
+100+200
+300
+110-45
+65
+23*23
+529
+24/2
+12
+a=45
+45
+a
+45
+10%2
+0
+100**2
+10000
+100++
+VM764:1 Uncaught SyntaxError: Invalid left-hand side expression in postfix operationUnderstand this errorAI
+a++
+45
+a++
+46
+a--
+47
+a--
+46
+a++
+45
+a++
+46
+100>=200
+false
+100==200
+false
+100==100
+true
+100<=290
+true
+100<200
+true
+100>200
+false
+100>=200
+false
+
+
+
+x=100
+100
+x>50 && x<110
+true
+x>50 || x<2
+true
+
+
+
+
+x=100
+100
+x>50 && x<110
+true
+x>50 || x<2
+true
+5<"10"
+true
+5<"sdsdsd"
+false
+5>"dwdwd"
+false
+5=="ssdsd"
+false
+"5"<"12"
+false
+"5">"12"
+true
+"5"=="12"
+false
+
